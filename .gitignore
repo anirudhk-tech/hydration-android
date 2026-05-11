@@ -1,0 +1,31 @@
+# --- Gradle build outputs & cache ---
+.gradle/
+build/
+*.ap_
+
+# --- Android generated files ---
+*.apk
+*.aab
+*.dex
+*.class
+gen/
+captures/
+.navigation/
+
+# --- Local machine config (SDK path lives here — differs per machine) ---
+local.properties
+
+# --- IDE files ---
+*.iml
+.idea/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Signing keys (NEVER commit these) ---
+*.jks
+*.keystore
+
+# --- Logs ---
+*.log
